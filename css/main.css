@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: Sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+  height: 100%;
+}
+input {
+  border: none;
+  border-bottom: 2px solid #e3e3e3;
+  margin: 0px 0px 30px 0px;
+}
